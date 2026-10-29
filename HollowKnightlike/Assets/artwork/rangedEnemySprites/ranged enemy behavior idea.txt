@@ -1,0 +1,9 @@
+The ranged enemy (who I'll called Advertiser) works similar to a koopa troopa and a bullet bill launcher.
+
+They start out idly walking around the area unless the player is nearby in which case they'll start walking towards the player.
+
+Once they get to a close enough range they'll stand still and charge up, shooting a bullet at the player that travels horizontally. They will keep doing this unless the player is out of range.
+
+They avoid falling off of ledges similar to a red koopa troopa.
+
+Once their HP is fully drained they'll stagger backwards glitching out before exploding into 4 bits of "gore", their broken TV head, their two feet, and their torso which all fall off screen.

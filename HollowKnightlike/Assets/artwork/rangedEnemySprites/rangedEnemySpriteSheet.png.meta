@@ -1,0 +1,821 @@
+fileFormatVersion: 2
+guid: a8a4d833c283a2f419ed9cb603d3590c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4167108229398407401
+    second: rangedEnemySpriteSheet_0
+  - first:
+      213: -6822517385525461986
+    second: rangedEnemySpriteSheet_1
+  - first:
+      213: 7765244008590198692
+    second: rangedEnemySpriteSheet_2
+  - first:
+      213: -2184135802066817441
+    second: rangedEnemySpriteSheet_3
+  - first:
+      213: 7574091728653628007
+    second: rangedEnemySpriteSheet_4
+  - first:
+      213: 4619640032716599244
+    second: rangedEnemySpriteSheet_5
+  - first:
+      213: -8251434528035501875
+    second: rangedEnemySpriteSheet_6
+  - first:
+      213: 1287686498804566716
+    second: rangedEnemySpriteSheet_7
+  - first:
+      213: 4990435292297800940
+    second: rangedEnemySpriteSheet_8
+  - first:
+      213: -3055514869098257376
+    second: rangedEnemySpriteSheet_9
+  - first:
+      213: 6145291271026119938
+    second: rangedEnemySpriteSheet_10
+  - first:
+      213: 7526894816223454558
+    second: rangedEnemySpriteSheet_11
+  - first:
+      213: 5299697143976552291
+    second: rangedEnemySpriteSheet_12
+  - first:
+      213: 3312401611622791919
+    second: rangedEnemySpriteSheet_13
+  - first:
+      213: -7105346237525362317
+    second: rangedEnemySpriteSheet_14
+  - first:
+      213: 624159247882913393
+    second: rangedEnemySpriteSheet_15
+  - first:
+      213: -5462845975583886386
+    second: rangedEnemySpriteSheet_16
+  - first:
+      213: 8617850659595203183
+    second: rangedEnemySpriteSheet_17
+  - first:
+      213: -1961850494137253559
+    second: rangedEnemySpriteSheet_18
+  - first:
+      213: 6047498813614316791
+    second: rangedEnemySpriteSheet_19
+  - first:
+      213: 1543197540718486025
+    second: rangedEnemySpriteSheet_20
+  - first:
+      213: 8837189512916484227
+    second: rangedEnemySpriteSheet_21
+  - first:
+      213: 6328161209929093283
+    second: rangedEnemySpriteSheet_22
+  - first:
+      213: -7517678833946957135
+    second: rangedEnemySpriteSheet_23
+  - first:
+      213: -3013015905993744518
+    second: rangedEnemySpriteSheet_24
+  - first:
+      213: 8166494146551784372
+    second: rangedEnemySpriteSheet_25
+  - first:
+      213: -3127877732422466201
+    second: rangedEnemySpriteSheet_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: REidle0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e826e93bda84d930800000000000000
+      internalID: 4167108229398407401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REidle1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 720
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1cf3d9c59c8151a0800000000000000
+      internalID: -6822517385525461986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REidle2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 720
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a7cf36a840b3cb60800000000000000
+      internalID: 7765244008590198692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REidle3
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 720
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e28906f0460b1e0800000000000000
+      internalID: -2184135802066817441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REwalk0
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 720
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 762bf964c449c1960800000000000000
+      internalID: 7574091728653628007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REwalk1
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 720
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccf2f3442224c1040800000000000000
+      internalID: 4619640032716599244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REwalk2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 540
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc80d05c3040d7d80800000000000000
+      internalID: -8251434528035501875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REwalk3
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 540
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cba00575c08ced110800000000000000
+      internalID: 1287686498804566716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REcharge0
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 540
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cecabf73576914540800000000000000
+      internalID: 4990435292297800940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REcharge1
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 540
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02469755a61a895d0800000000000000
+      internalID: -3055514869098257376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REcharge2
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 540
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20512d21ad5784550800000000000000
+      internalID: 6145291271026119938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REcharge3
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 540
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e556ab6c4f6e47860800000000000000
+      internalID: 7526894816223454558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REshoot0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 367efd3397e4c8940800000000000000
+      internalID: 5299697143976552291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REshoot1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 360
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea353647b308fd20800000000000000
+      internalID: 3312401611622791919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REshoot2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 360
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37974222e3db46d90800000000000000
+      internalID: -7105346237525362317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REshoot3
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 360
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 176065d678579a800800000000000000
+      internalID: 624159247882913393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REbullet0
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 360
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec376a257821034b0800000000000000
+      internalID: -5462845975583886386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REbullet1
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 360
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f62b98cf381c89770800000000000000
+      internalID: 8617850659595203183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REbullet2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9414682be5b16c4e0800000000000000
+      internalID: -1961850494137253559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REbullet3
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 180
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fcd31541280de350800000000000000
+      internalID: 6047498813614316791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REstagger0
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 180
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90228c0bcf98a6510800000000000000
+      internalID: 1543197540718486025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REstagger1
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 180
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 380c1326a0104aa70800000000000000
+      internalID: 8837189512916484227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REstagger2
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 180
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a0da37a71522d750800000000000000
+      internalID: 6328161209929093283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REstagger3
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 180
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba6e1f4ee6dba790800000000000000
+      internalID: -7517678833946957135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REgore0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7f14a44ffd9f26d0800000000000000
+      internalID: -3013015905993744518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REgore1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b3a6898827355170800000000000000
+      internalID: 8166494146551784372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REgore2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 765ca1a46cb8794d0800000000000000
+      internalID: -3127877732422466201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0b7911e49e9ae1d4dbafb00a7f7fb159
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":200.0,"y":180.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      REbullet0: -5462845975583886386
+      REbullet1: 8617850659595203183
+      REbullet2: -1961850494137253559
+      REbullet3: 6047498813614316791
+      REcharge0: 4990435292297800940
+      REcharge1: -3055514869098257376
+      REcharge2: 6145291271026119938
+      REcharge3: 7526894816223454558
+      REgore0: -3013015905993744518
+      REgore1: 8166494146551784372
+      REgore2: -3127877732422466201
+      REidle0: 4167108229398407401
+      REidle1: -6822517385525461986
+      REidle2: 7765244008590198692
+      REidle3: -2184135802066817441
+      REshoot0: 5299697143976552291
+      REshoot1: 3312401611622791919
+      REshoot2: -7105346237525362317
+      REshoot3: 624159247882913393
+      REstagger0: 1543197540718486025
+      REstagger1: 8837189512916484227
+      REstagger2: 6328161209929093283
+      REstagger3: -7517678833946957135
+      REwalk0: 7574091728653628007
+      REwalk1: 4619640032716599244
+      REwalk2: -8251434528035501875
+      REwalk3: 1287686498804566716
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

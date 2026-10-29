@@ -1,0 +1,821 @@
+fileFormatVersion: 2
+guid: 41d332ed88f709e408ba54a44b59a2cc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7129953491510955742
+    second: smallEnemySpritesheet_0
+  - first:
+      213: -280114659668309948
+    second: smallEnemySpritesheet_1
+  - first:
+      213: -6273120439611118448
+    second: smallEnemySpritesheet_2
+  - first:
+      213: -5539762422361357459
+    second: smallEnemySpritesheet_3
+  - first:
+      213: 145243640546999503
+    second: smallEnemySpritesheet_4
+  - first:
+      213: 5617026332264296278
+    second: smallEnemySpritesheet_5
+  - first:
+      213: -2098366864440493978
+    second: smallEnemySpritesheet_6
+  - first:
+      213: -4177707892269737101
+    second: smallEnemySpritesheet_7
+  - first:
+      213: 3072288964259886354
+    second: smallEnemySpritesheet_8
+  - first:
+      213: -4867887585711839272
+    second: smallEnemySpritesheet_9
+  - first:
+      213: 7408449730926694894
+    second: smallEnemySpritesheet_10
+  - first:
+      213: -9109809782521955131
+    second: smallEnemySpritesheet_11
+  - first:
+      213: 2116635210359483617
+    second: smallEnemySpritesheet_12
+  - first:
+      213: -7017934398801656358
+    second: smallEnemySpritesheet_13
+  - first:
+      213: -4995367628338861296
+    second: smallEnemySpritesheet_14
+  - first:
+      213: -1955816112384801896
+    second: smallEnemySpritesheet_15
+  - first:
+      213: -3329188449617173033
+    second: smallEnemySpritesheet_16
+  - first:
+      213: -8794666359668566442
+    second: smallEnemySpritesheet_17
+  - first:
+      213: -1480395135688877116
+    second: smallEnemySpritesheet_18
+  - first:
+      213: 5807246131137382928
+    second: smallEnemySpritesheet_19
+  - first:
+      213: -4670859250644035547
+    second: smallEnemySpritesheet_20
+  - first:
+      213: -4978888853226517579
+    second: smallEnemySpritesheet_21
+  - first:
+      213: -1311313334170693696
+    second: smallEnemySpritesheet_22
+  - first:
+      213: 5315339688945746423
+    second: smallEnemySpritesheet_23
+  - first:
+      213: -4314632123014040379
+    second: smallEnemySpritesheet_24
+  - first:
+      213: 8289488058303658811
+    second: smallEnemySpritesheet_25
+  - first:
+      213: -9039028880711509049
+    second: smallEnemySpritesheet_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SMidle0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ede0196aceea2f260800000000000000
+      internalID: 7129953491510955742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMidle1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 720
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 448471e7335dc1cf0800000000000000
+      internalID: -280114659668309948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMwalk0
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 720
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09cacb3523661f8a0800000000000000
+      internalID: -6273120439611118448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMwalk1
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 720
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6308138d6fce13b0800000000000000
+      internalID: -5539762422361357459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMreel0
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 720
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcc30b05252040200800000000000000
+      internalID: 145243640546999503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMreel1
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 720
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65fe0ac50bfa3fd40800000000000000
+      internalID: 5617026332264296278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMliftOff
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 540
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 668f294547a11e2e0800000000000000
+      internalID: -2098366864440493978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMfly0
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 540
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b9ae17eccc506c0800000000000000
+      internalID: -4177707892269737101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMfly1
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 540
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 215301a0986f2aa20800000000000000
+      internalID: 3072288964259886354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMonFloor
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 540
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d7ac1f280ac17cb0800000000000000
+      internalID: -4867887585711839272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMgetUp0
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 540
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee1593457c910d660800000000000000
+      internalID: 7408449730926694894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMgetUp1
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 540
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cc7665c444739180800000000000000
+      internalID: -9109809782521955131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMgetUp2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ecaf88628ccf5d10800000000000000
+      internalID: 2116635210359483617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMgetUp3
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 360
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5ce6ec8d94b9e90800000000000000
+      internalID: -7017934398801656358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMgetUp4
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 360
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b606ecb93ecaab0800000000000000
+      internalID: -4995367628338861296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMgetUp5
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 360
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 893815fab9b8bd4e0800000000000000
+      internalID: -1955816112384801896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMgetUp6
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 360
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d52c3e6eb85cc1d0800000000000000
+      internalID: -3329188449617173033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMfall0
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 360
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65690e1ca8113f580800000000000000
+      internalID: -8794666359668566442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMfall1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cb5c02b774947be0800000000000000
+      internalID: -1480395135688877116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMstagger0
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 180
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01a84b1969b779050800000000000000
+      internalID: 5807246131137382928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMstagger1
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 180
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 528d3814246cd2fb0800000000000000
+      internalID: -4670859250644035547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMstagger2
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 180
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bb084f97fe67eab0800000000000000
+      internalID: -4978888853226517579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMstagger3
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 180
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cfc58f58774dcde0800000000000000
+      internalID: -1311313334170693696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMgore0
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 180
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f185240941e3c940800000000000000
+      internalID: 5315339688945746423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMgore1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c4324ba1f85f14c0800000000000000
+      internalID: -4314632123014040379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMgore2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3b380d287d2a0370800000000000000
+      internalID: 8289488058303658811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SMgore3
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cb91b2bf1bee8280800000000000000
+      internalID: -9039028880711509049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6eae129eab9d3344fa6a2a6a44270f6a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":200.0,"y":180.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      SMfall0: -8794666359668566442
+      SMfall1: -1480395135688877116
+      SMfly0: -4177707892269737101
+      SMfly1: 3072288964259886354
+      SMgetUp0: 7408449730926694894
+      SMgetUp1: -9109809782521955131
+      SMgetUp2: 2116635210359483617
+      SMgetUp3: -7017934398801656358
+      SMgetUp4: -4995367628338861296
+      SMgetUp5: -1955816112384801896
+      SMgetUp6: -3329188449617173033
+      SMgore0: 5315339688945746423
+      SMgore1: -4314632123014040379
+      SMgore2: 8289488058303658811
+      SMgore3: -9039028880711509049
+      SMidle0: 7129953491510955742
+      SMidle1: -280114659668309948
+      SMliftOff: -2098366864440493978
+      SMonFloor: -4867887585711839272
+      SMreel0: 145243640546999503
+      SMreel1: 5617026332264296278
+      SMstagger0: 5807246131137382928
+      SMstagger1: -4670859250644035547
+      SMstagger2: -4978888853226517579
+      SMstagger3: -1311313334170693696
+      SMwalk0: -6273120439611118448
+      SMwalk1: -5539762422361357459
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

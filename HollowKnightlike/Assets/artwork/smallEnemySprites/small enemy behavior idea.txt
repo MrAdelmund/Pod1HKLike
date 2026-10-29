@@ -1,0 +1,11 @@
+The Small enemy (who I'll call Employed from now on) works like a mixture of a goomba and a pilgrim groveler from silksong.
+
+They start out just idly walking around the area unless the player is nearby in which case they'll start walking towards the player. 
+
+Once they get close enough to the player they'll reel back for a moment before throwing their body at the player in an attempt to deal some contact damage.
+
+Once they hit the floor they'll eat the dirt and stay there for a few seconds giving the player time to hurt them before they quickly get back up and get ready to attack again.
+
+They can fall off of ledges if they're knocked into them, in which case they'll fall down and eat the dirt again once hitting the ground.
+
+Once their HP is fully drained they'll stagger backwards glitching out before exploding into 5 bits of "gore", the two halves of their head, their two feet, and their torso which all fall off screen.

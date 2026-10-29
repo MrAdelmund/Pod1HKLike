@@ -1,0 +1,13 @@
+This health system works similar to Silksong's health regeneration but much more weird.
+
+Each can repersents 3 hit points, crumpling more with each hit until its fully destroyed and falls away while also fading away. 
+
+If the player has no more spray cans, they DIE.
+
+The player starts out with 1 spray can, but 2 shelf slots that can hold these spray cans. 
+
+By charging up for a while you can add another spray can on the right of the currently rightmost spray can. 
+
+The rightmost spray can is always the one drained whenever the player is hit.
+
+The player can find more shelf slots in the world allowing them to hold more spray cans and have more hp.

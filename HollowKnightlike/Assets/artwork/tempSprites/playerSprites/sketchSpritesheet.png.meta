@@ -1,0 +1,1315 @@
+fileFormatVersion: 2
+guid: 447a86cb39a1b1941acf0c68468e6945
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7255476899481971032
+    second: sketchSpritesheet_0
+  - first:
+      213: -688622961805205683
+    second: sketchSpritesheet_1
+  - first:
+      213: 2220709784584093464
+    second: sketchSpritesheet_2
+  - first:
+      213: -3708968475366056705
+    second: sketchSpritesheet_3
+  - first:
+      213: 4774450306612584350
+    second: sketchSpritesheet_4
+  - first:
+      213: 5052677879581881372
+    second: sketchSpritesheet_5
+  - first:
+      213: -1541644561905825738
+    second: sketchSpritesheet_6
+  - first:
+      213: 6731331687148520204
+    second: sketchSpritesheet_7
+  - first:
+      213: -4463572318276379552
+    second: sketchSpritesheet_8
+  - first:
+      213: -4839393067540562558
+    second: sketchSpritesheet_9
+  - first:
+      213: -9138653725922952911
+    second: sketchSpritesheet_10
+  - first:
+      213: -355273682691398828
+    second: sketchSpritesheet_11
+  - first:
+      213: -8930043742626515971
+    second: sketchSpritesheet_12
+  - first:
+      213: 5789417197152561953
+    second: sketchSpritesheet_13
+  - first:
+      213: 7384094638386816372
+    second: sketchSpritesheet_14
+  - first:
+      213: 1520838141472954759
+    second: sketchSpritesheet_15
+  - first:
+      213: 8074305611345762980
+    second: sketchSpritesheet_16
+  - first:
+      213: 6339578914612663755
+    second: sketchSpritesheet_17
+  - first:
+      213: 3112744607268925116
+    second: sketchSpritesheet_18
+  - first:
+      213: -879943868857719413
+    second: sketchSpritesheet_19
+  - first:
+      213: -6962613436844678877
+    second: sketchSpritesheet_20
+  - first:
+      213: -5705849157285721942
+    second: sketchSpritesheet_21
+  - first:
+      213: -3072075822282115632
+    second: sketchSpritesheet_22
+  - first:
+      213: 4515822025255650743
+    second: sketchSpritesheet_23
+  - first:
+      213: 4234940302210888399
+    second: sketchSpritesheet_24
+  - first:
+      213: -4240232769979465893
+    second: sketchSpritesheet_25
+  - first:
+      213: -2900506529403308374
+    second: sketchSpritesheet_26
+  - first:
+      213: -5387181323783468675
+    second: sketchSpritesheet_27
+  - first:
+      213: -1661953519494330810
+    second: sketchSpritesheet_28
+  - first:
+      213: -6292940257166093676
+    second: sketchSpritesheet_29
+  - first:
+      213: 6968865816778674810
+    second: sketchSpritesheet_30
+  - first:
+      213: 6287373281041769676
+    second: sketchSpritesheet_31
+  - first:
+      213: 8805783593253881121
+    second: sketchSpritesheet_32
+  - first:
+      213: 1974246227935766062
+    second: sketchSpritesheet_33
+  - first:
+      213: -2956702282601121751
+    second: sketchSpritesheet_34
+  - first:
+      213: 5431138785510373662
+    second: sketchSpritesheet_35
+  - first:
+      213: 7213345127182001696
+    second: sketchSpritesheet_36
+  - first:
+      213: 9008212622830357365
+    second: sketchSpritesheet_37
+  - first:
+      213: 6898244034297319417
+    second: sketchSpritesheet_38
+  - first:
+      213: 8898676278945191577
+    second: sketchSpritesheet_39
+  - first:
+      213: 2989172016747869029
+    second: sketchSpritesheet_40
+  - first:
+      213: 2716275975274056518
+    second: sketchSpritesheet_41
+  - first:
+      213: 8700718112938210579
+    second: sketchSpritesheet_42
+  - first:
+      213: 9012797001926741084
+    second: sketchSpritesheet_43
+  - first:
+      213: 1639216373067992593
+    second: sketchSpritesheet_44
+  - first:
+      213: -1587164250856048109
+    second: sketchSpritesheet_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: idle0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a6135a733e5f4b90800000000000000
+      internalID: -7255476899481971032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1080
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f5c6190158176f0800000000000000
+      internalID: -688622961805205683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1080
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81f7e5388cb81de10800000000000000
+      internalID: 2220709784584093464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk0
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1080
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc1fa692d8178cc0800000000000000
+      internalID: -3708968475366056705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: walk1
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1080
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9fd56bf141424240800000000000000
+      internalID: 4774450306612584350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump0
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1080
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c14b3f0e2c7be1640800000000000000
+      internalID: 5052677879581881372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump1
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1080
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 638c0bd507afa9ae0800000000000000
+      internalID: -1541644561905825738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fall0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0381dd518e7a6d50800000000000000
+      internalID: 6731331687148520204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fall1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 900
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c9ed320a43e02c0800000000000000
+      internalID: -4463572318276379552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dJump0
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 900
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28db1c035a507dcb0800000000000000
+      internalID: -4839393067540562558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dJump1
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 900
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 139ff0ddadafc2180800000000000000
+      internalID: -9138653725922952911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dJump2
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 900
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4536229c770d11bf0800000000000000
+      internalID: -355273682691398828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dJump3
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 900
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df3fb0c878c121480800000000000000
+      internalID: -8930043742626515971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: landToIdle0
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 900
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12be0d46444285050800000000000000
+      internalID: 5789417197152561953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: landToIdle1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 720
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 475a9e473f2997660800000000000000
+      internalID: 7384094638386816372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: landToIdle2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 720
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7895c5f5b3a1b1510800000000000000
+      internalID: 1520838141472954759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: landToWalk0
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 720
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aa153c8c22bd0070800000000000000
+      internalID: 8074305611345762980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: landToWalk1
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 720
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc55b0f2f65baf750800000000000000
+      internalID: 6339578914612663755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: landToWalk2
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 720
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbee6c07ab0b23b20800000000000000
+      internalID: 3112744607268925116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dash0
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 720
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b85e372a6bfc9c3f0800000000000000
+      internalID: -879943868857719413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dash1
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 720
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 321e28cf7f3df5f90800000000000000
+      internalID: -6962613436844678877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dashToFall0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 540
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa8c50e1c60c0d0b0800000000000000
+      internalID: -5705849157285721942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dashToFall1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 540
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d5fec1f05bcd55d0800000000000000
+      internalID: -3072075822282115632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dashToFall2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 540
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b58f34c43c6bae30800000000000000
+      internalID: 4515822025255650743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dashToIdle0
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 540
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc2f34664c785ca30800000000000000
+      internalID: 4234940302210888399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dashToIdle1
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 540
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f376ce2caa725c0800000000000000
+      internalID: -4240232769979465893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dashToIdle2
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 540
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa6f636dda45fb7d0800000000000000
+      internalID: -2900506529403308374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dashToIdle3
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 540
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d798447e023ec35b0800000000000000
+      internalID: -5387181323783468675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dashToIdle4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 360
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6468455541e8fe8e0800000000000000
+      internalID: -1661953519494330810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dashToWalk0
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 360
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4921cd27d2cfaa8a0800000000000000
+      internalID: -6292940257166093676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dashToWalk1
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 360
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a729478a98266b060800000000000000
+      internalID: 6968865816778674810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dashToWalk2
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 360
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4e6caefac314750800000000000000
+      internalID: 6287373281041769676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallcling0
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 360
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1254cd4e58d643a70800000000000000
+      internalID: 8805783593253881121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wallcling1
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 360
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e26244bfb7ee56b10800000000000000
+      internalID: 1974246227935766062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack0
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 360
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92839f270fea7f6d0800000000000000
+      internalID: -2956702282601121751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e19313433f74f5b40800000000000000
+      internalID: 5431138785510373662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attack2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 180
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0266afbdc23fa1460800000000000000
+      internalID: 7213345127182001696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackToIdle0
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 180
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57b4ef427a9930d70800000000000000
+      internalID: 9008212622830357365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackToIdle1
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 180
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ffcf36966c7bbf50800000000000000
+      internalID: 6898244034297319417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackToIdle2
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 180
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99619b1bde27e7b70800000000000000
+      internalID: 8898676278945191577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackToFall0
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 180
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5637bc6ac1cab7920800000000000000
+      internalID: 2989172016747869029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackToFall1
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 180
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b432aab9622b520800000000000000
+      internalID: 2716275975274056518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackToFall2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3153d7c76092fb870800000000000000
+      internalID: 8700718112938210579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackToWalk0
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c8c841f13e31d70800000000000000
+      internalID: 9012797001926741084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackToWalk1
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11ec8ba3b9aafb610800000000000000
+      internalID: 1639216373067992593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: attackToWalk2
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 200
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ab683e58249f9e0800000000000000
+      internalID: -1587164250856048109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 45646e01d4d81774f9407966bed5cbaf
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":200.0,"y":180.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      attack0: -2956702282601121751
+      attack1: 5431138785510373662
+      attack2: 7213345127182001696
+      attackToFall0: 2989172016747869029
+      attackToFall1: 2716275975274056518
+      attackToFall2: 8700718112938210579
+      attackToIdle0: 9008212622830357365
+      attackToIdle1: 6898244034297319417
+      attackToIdle2: 8898676278945191577
+      attackToWalk0: 9012797001926741084
+      attackToWalk1: 1639216373067992593
+      attackToWalk2: -1587164250856048109
+      dJump0: -4839393067540562558
+      dJump1: -9138653725922952911
+      dJump2: -355273682691398828
+      dJump3: -8930043742626515971
+      dash0: -879943868857719413
+      dash1: -6962613436844678877
+      dashToFall0: -5705849157285721942
+      dashToFall1: -3072075822282115632
+      dashToFall2: 4515822025255650743
+      dashToIdle0: 4234940302210888399
+      dashToIdle1: -4240232769979465893
+      dashToIdle2: -2900506529403308374
+      dashToIdle3: -5387181323783468675
+      dashToIdle4: -1661953519494330810
+      dashToWalk0: -6292940257166093676
+      dashToWalk1: 6968865816778674810
+      dashToWalk2: 6287373281041769676
+      fall0: 6731331687148520204
+      fall1: -4463572318276379552
+      idle0: -7255476899481971032
+      idle1: -688622961805205683
+      idle2: 2220709784584093464
+      jump0: 5052677879581881372
+      jump1: -1541644561905825738
+      landToIdle0: 5789417197152561953
+      landToIdle1: 7384094638386816372
+      landToIdle2: 1520838141472954759
+      landToWalk0: 8074305611345762980
+      landToWalk1: 6339578914612663755
+      landToWalk2: 3112744607268925116
+      walk0: -3708968475366056705
+      walk1: 4774450306612584350
+      wallcling0: 8805783593253881121
+      wallcling1: 1974246227935766062
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
