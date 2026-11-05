@@ -27,11 +27,11 @@ public class PlayerHealth : MonoBehaviour
             Debug.Log("I hit an enemy!");
             health -= 1;
             //update my health text
-            text.text = "Health: " + health;
+            
             if (health <= 0)
             {
                 Debug.Log("You died!");
-                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                SceneManager.LoadScene("DEATH");
             }
         
         }

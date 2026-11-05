@@ -8,5 +8,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/max's scenes/basicArea.unity
+    guid: 72d69c64e4625da45b617574f6c59b44
+  - enabled: 1
+    path: Assets/Scenes/DEATH.unity
+    guid: 6a2844eaaa06fd74faaa419d9d8d54f4
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
