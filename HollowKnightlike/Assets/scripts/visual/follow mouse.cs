@@ -19,7 +19,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
             float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
 
             // 3. Create the target rotation (adjusting by -90 if your image faces "up" by default)
-            Quaternion targetRotation = Quaternion.Euler(0, 0, angle - 90f);
+            Quaternion targetRotation = Quaternion.Euler(0, 0, angle - 0f);
 
             // 4. Smoothly rotate towards the player over time
             transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);

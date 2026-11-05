@@ -55,6 +55,11 @@ public class PlayerMovement : MonoBehaviour
 
     public int facingDirection = 1;
 
+    public float KBForce;
+    public float KBCounter;
+    public float KBTotalTime;
+
+    public bool KnockFromRight;
 
 
     void Start()
@@ -184,4 +189,5 @@ public class PlayerMovement : MonoBehaviour
 
         isDashing = false;
     }
+    
 }
