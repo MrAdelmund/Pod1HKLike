@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 407273509}
   - component: {fileID: 407273508}
   - component: {fileID: 407273512}
+  - component: {fileID: 407273513}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -236,6 +237,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 112aaafcce8345144a7c2c2c7905bfab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::level1loader
+--- !u!114 &407273513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 407273507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb015e2cc5f432b45a58221f95616d24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::mainmenuloader
 --- !u!1 &625142897
 GameObject:
   m_ObjectHideFlags: 0
@@ -816,7 +829,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1585942832}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 407273513}
+        m_TargetAssemblyTypeName: mainmenuloader, Assembly-CSharp
+        m_MethodName: LoadMainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1585942832
 MonoBehaviour:
   m_ObjectHideFlags: 0
