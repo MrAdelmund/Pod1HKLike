@@ -1115,7 +1115,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::cameraZone
   camera: {fileID: 1112088651}
   target: {fileID: 1578703403}
-  player: {fileID: 0}
+  player: {fileID: 1482044963}
   changeSize: 1
   zoneSize: 100
 --- !u!61 &84659686
@@ -7554,7 +7554,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::cameraZone
   camera: {fileID: 1112088651}
   target: {fileID: 1217089204}
-  player: {fileID: 0}
+  player: {fileID: 1482044963}
   changeSize: 1
   zoneSize: 100
 --- !u!61 &528285074
@@ -8865,7 +8865,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::cameraZone
   camera: {fileID: 1112088651}
   target: {fileID: 1501112924}
-  player: {fileID: 0}
+  player: {fileID: 1482044963}
   changeSize: 1
   zoneSize: 100
 --- !u!61 &623010054
@@ -14362,7 +14362,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::cameraZone
   camera: {fileID: 1112088651}
   target: {fileID: 1604760871}
-  player: {fileID: 0}
+  player: {fileID: 1482044963}
   changeSize: 1
   zoneSize: 100
 --- !u!61 &977964346
@@ -14550,7 +14550,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::cameraZone
   camera: {fileID: 1112088651}
   target: {fileID: 1238945425}
-  player: {fileID: 0}
+  player: {fileID: 1482044963}
   changeSize: 1
   zoneSize: 100
 --- !u!61 &1001197072
@@ -17166,7 +17166,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::cameraZone
   camera: {fileID: 1112088651}
   target: {fileID: 1904386896}
-  player: {fileID: 0}
+  player: {fileID: 1482044963}
   changeSize: 1
   zoneSize: 100
 --- !u!61 &1145053361
@@ -21845,6 +21845,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
   health: 6
   text: {fileID: 0}
+--- !u!114 &1482044973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482044954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3585c11c3b8f8d45895b0e2bc1bd4df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Fall
 --- !u!1 &1487426190
 GameObject:
   m_ObjectHideFlags: 0
@@ -29207,6 +29219,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: sprayninja
       objectReference: {fileID: 0}
+    - target: {fileID: 4499129932491325657, guid: 70d4bc44c37a11a41a573dcb1d1e6a73, type: 3}
+      propertyPath: attackRange
+      value: 1.63
+      objectReference: {fileID: 0}
     - target: {fileID: 4508897329193752830, guid: 70d4bc44c37a11a41a573dcb1d1e6a73, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.631
@@ -29259,6 +29275,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7229864202828307891, guid: 70d4bc44c37a11a41a573dcb1d1e6a73, type: 3}
+      propertyPath: groundCheckRadius
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -29266,6 +29286,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1889925142883457684, guid: 70d4bc44c37a11a41a573dcb1d1e6a73, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1482044964}
+    - targetCorrespondingSourceObject: {fileID: 1889925142883457684, guid: 70d4bc44c37a11a41a573dcb1d1e6a73, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1482044973}
   m_SourcePrefab: {fileID: 100100000, guid: 70d4bc44c37a11a41a573dcb1d1e6a73, type: 3}
 --- !u!1 &2020135280
 GameObject:
@@ -30876,7 +30899,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::cameraZone
   camera: {fileID: 1112088651}
   target: {fileID: 1620458202}
-  player: {fileID: 0}
+  player: {fileID: 1482044963}
   changeSize: 0
   zoneSize: 75
 --- !u!61 &2100633501
