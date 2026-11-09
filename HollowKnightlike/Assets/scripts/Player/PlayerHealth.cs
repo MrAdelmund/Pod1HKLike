@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 using TMPro;
 public class PlayerHealth : MonoBehaviour
 {
+     private int currentHealth;
     public int health = 6;
     //the text object we want to update
     public TMP_Text text;
@@ -40,5 +41,23 @@ public class PlayerHealth : MonoBehaviour
             health += 1;
             text.text = "Health: " + health;
         }
+    }
+    public void TakeDamage(int damageAmount)
+    {
+        currentHealth -= damageAmount;
+        Debug.Log($"Player took {damageAmount} damage! Health remaining: {currentHealth}");
+
+        // Optional: Trigger a hurt animation or flash effect here
+        // anim.SetTrigger("Hurt");
+
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
+    }
+    void Die()
+    {
+        Debug.Log("You died!");
+        SceneManager.LoadScene("DEATH");
     }
 }
