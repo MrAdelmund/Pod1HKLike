@@ -23635,8 +23635,8 @@ GameObject:
   - component: {fileID: 1574573748}
   - component: {fileID: 1574573747}
   - component: {fileID: 1574573749}
-  - component: {fileID: 1574573750}
   - component: {fileID: 1574573751}
+  - component: {fileID: 1574573752}
   m_Layer: 4
   m_Name: Boss
   m_TagString: Untagged
@@ -23693,7 +23693,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 6711749107343753065, guid: 1df9752d57018cb40a2624f5e72e5206, type: 3}
+  m_Sprite: {fileID: -1950862504471605169, guid: 64fbf62a5d221464ca380a4695436b27, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -23712,8 +23712,8 @@ Transform:
   m_GameObject: {fileID: 1574573744}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 457.8, y: 1.63, z: 0}
-  m_LocalScale: {x: 0.87, y: 0.78441155, z: 0.34251082}
+  m_LocalPosition: {x: 458.3745, y: 3.3063, z: 0}
+  m_LocalScale: {x: 2.1611671, y: 1.9485568, z: 0.85083115}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1624308328}
@@ -23784,8 +23784,30 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &1574573750
-BoxCollider2D:
+--- !u!95 &1574573751
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574573744}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 38f2f2d17449d0c41a64d11ad52fadcd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!70 &1574573752
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -23819,39 +23841,8 @@ BoxCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.36, y: 6.73}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 2.36, y: 6.73}
-  m_EdgeRadius: 0
---- !u!95 &1574573751
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1574573744}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8e45b09b54634894798ad69cdf652e96, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
+  m_Size: {x: 0.89, y: 2.8799999}
+  m_Direction: 0
 --- !u!1 &1578703402
 GameObject:
   m_ObjectHideFlags: 0
