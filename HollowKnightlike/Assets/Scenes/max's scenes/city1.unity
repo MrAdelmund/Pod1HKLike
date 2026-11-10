@@ -22591,6 +22591,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3585c11c3b8f8d45895b0e2bc1bd4df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Fall
+--- !u!114 &1482044974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482044954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e9b8ac741363ba46b9a7b54327e081f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::iframes
+  duration: 1.5
+  numberOfFlashes: 5
+  spriteRenderer: {fileID: 1482044982}
+--- !u!212 &1482044982 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 2006541737673008001, guid: 70d4bc44c37a11a41a573dcb1d1e6a73, type: 3}
+  m_PrefabInstance: {fileID: 2015199194}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1487426190
 GameObject:
   m_ObjectHideFlags: 0
@@ -23727,7 +23747,7 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_Sprite: {fileID: -1950862504471605169, guid: 64fbf62a5d221464ca380a4695436b27, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 1
+  m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1, y: 1}
@@ -30412,11 +30432,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4508897329193752830, guid: 70d4bc44c37a11a41a573dcb1d1e6a73, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 411
+      value: 454.48
       objectReference: {fileID: 0}
     - target: {fileID: 4508897329193752830, guid: 70d4bc44c37a11a41a573dcb1d1e6a73, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.7
+      value: -0.58
       objectReference: {fileID: 0}
     - target: {fileID: 4508897329193752830, guid: 70d4bc44c37a11a41a573dcb1d1e6a73, type: 3}
       propertyPath: m_LocalPosition.z
@@ -30464,6 +30484,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1889925142883457684, guid: 70d4bc44c37a11a41a573dcb1d1e6a73, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1482044973}
+    - targetCorrespondingSourceObject: {fileID: 1889925142883457684, guid: 70d4bc44c37a11a41a573dcb1d1e6a73, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1482044974}
   m_SourcePrefab: {fileID: 100100000, guid: 70d4bc44c37a11a41a573dcb1d1e6a73, type: 3}
 --- !u!1 &2020135280
 GameObject:
@@ -32916,6 +32939,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1938227886140704182, guid: 76b51d83c9b3d4a4796fe9046e61fdd2, type: 3}
+      propertyPath: damageValue
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3652224643773456893, guid: 76b51d83c9b3d4a4796fe9046e61fdd2, type: 3}
       propertyPath: m_Name
       value: Bullet

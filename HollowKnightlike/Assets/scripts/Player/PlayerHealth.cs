@@ -1,60 +1,69 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using TMPro;
+using static TMPro.SpriteAssetUtilities.TexturePacker_JsonArray;
+
 public class PlayerHealth : MonoBehaviour
 {
-     private int currentHealth;
     public int health = 6;
-    //the text object we want to update
+    // The text object we want to update
     public TMP_Text text;
-    //when the player hits an enemy
-    //reduce the player health
-    //then, if health is too low, you die, aka reload the level
-   
+
+    // Reference to your "iframes" script
+    private iframes iFramesScript;
+
     void Start()
     {
-        text.text = "Health: " + health;
-
-        //CHALLENGE
-        //update your player collectable code to display how many collectables you have
-
-        //Change player shoot to have a fixed amount of ammo. Display ammo on the canvas, don't shoot if you don't have ammo
-
+        iFramesScript = GetComponent<iframes>();
+        UpdateHealthUI();
     }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Enemy")
+        if (collision.gameObject.CompareTag("Enemy"))
         {
             Debug.Log("I hit an enemy!");
-            health -= 1;
-            //update my health text
-            
-            if (health <= 0)
-            {
-                Debug.Log("You died!");
-                SceneManager.LoadScene("DEATH");
-            }
-        
+            TakeDamage(1);
         }
-        if (collision.gameObject.tag == "HealthPack")
+
+        if (collision.gameObject.CompareTag("HealthPack"))
         {
             health += 1;
-            text.text = "Health: " + health;
+            UpdateHealthUI();
         }
     }
+
     public void TakeDamage(int damageAmount)
     {
-        currentHealth -= damageAmount;
-        Debug.Log($"Player took {damageAmount} damage! Health remaining: {currentHealth}");
+        // Stop immediately if i-frames are currently active
+        if (iFramesScript != null && iFramesScript.IsInvulnerable)
+        {
+            return;
+        }
 
-        // Optional: Trigger a hurt animation or flash effect here
-        // anim.SetTrigger("Hurt");
+        health -= damageAmount;
+        UpdateHealthUI();
+        Debug.Log($"Player took {damageAmount} damage! Health remaining: {health}");
 
-        if (currentHealth <= 0)
+        if (health <= 0)
         {
             Die();
         }
+        else if (iFramesScript != null)
+        {
+            // Activate i-frames after taking damage
+            iFramesScript.TriggerIFrames();
+        }
     }
+
+    void UpdateHealthUI()
+    {
+        if (text != null)
+        {
+            text.text = "Health: " + health;
+        }
+    }
+
     void Die()
     {
         Debug.Log("You died!");
