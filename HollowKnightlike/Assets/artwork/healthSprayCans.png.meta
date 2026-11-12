@@ -109,7 +109,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HSCfull
+      name: fullHealthSprite
       rect:
         serializedVersion: 2
         x: 0
@@ -131,7 +131,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HSCmid
+      name: mediumHealthSprite
       rect:
         serializedVersion: 2
         x: 150
@@ -153,7 +153,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HSCalmost
+      name: lowHealthSprite
       rect:
         serializedVersion: 2
         x: 0
@@ -175,7 +175,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HSCempty
+      name: deadSprite
       rect:
         serializedVersion: 2
         x: 150
@@ -212,10 +212,10 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":150.0,"y":150.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      HSCalmost: 5976427193542175618
-      HSCempty: 6337122800067852480
-      HSCfull: 4197606196651542819
-      HSCmid: 6818433322602508778
+      deadSprite: 6337122800067852480
+      fullHealthSprite: 4197606196651542819
+      lowHealthSprite: 5976427193542175618
+      mediumHealthSprite: 6818433322602508778
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
