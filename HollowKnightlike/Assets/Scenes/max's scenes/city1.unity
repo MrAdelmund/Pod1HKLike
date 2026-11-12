@@ -4746,6 +4746,11 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!4 &301588948 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3542413433208464063, guid: 70d4bc44c37a11a41a573dcb1d1e6a73, type: 3}
+  m_PrefabInstance: {fileID: 2015199194}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &305258977
 GameObject:
   m_ObjectHideFlags: 0
@@ -23873,6 +23878,9 @@ GameObject:
   - component: {fileID: 1574573751}
   - component: {fileID: 1574573752}
   - component: {fileID: 1574573753}
+  - component: {fileID: 1574573754}
+  - component: {fileID: 1574573756}
+  - component: {fileID: 1574573757}
   m_Layer: 4
   m_Name: Boss
   m_TagString: Enemy
@@ -23931,7 +23939,7 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_Sprite: {fileID: -1950862504471605169, guid: 64fbf62a5d221464ca380a4695436b27, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1, y: 1}
@@ -23986,7 +23994,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36da4a7995a281e4b9839115fa43a86d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BossController
-  currentState: 0
+  currentState: 1
   player: {fileID: 1482044963}
   moveSpeed: 3
   moveSpots:
@@ -24089,16 +24097,56 @@ MonoBehaviour:
   m_GameObject: {fileID: 1574573744}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0de85bf974c034f40ace0d0cbfebf89f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::bossleap
+--- !u!114 &1574573754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574573744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b4d73ca1423525649a93359895ca2e13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LeapingEnemy
-  leapCooldown: 8.67
+  leapCooldown: 4
   leapForce: {x: 5, y: 7}
-  groundCheck: {fileID: 2359987}
+  groundCheck: {fileID: 301588948}
   checkRadius: 0.2
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
+--- !u!114 &1574573756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574573744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efcd724dd6759894c957702bfafca14f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::projectile
+  bullet: {fileID: 1692269836}
+  bulletSpeed: 10
+  shootDelay: 3
+  shootTriggerDistance: 20
+--- !u!114 &1574573757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574573744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27110f2377f638b4cbaa2e001dab2777, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::faceplayernosey
 --- !u!1 &1578703402
 GameObject:
   m_ObjectHideFlags: 0
@@ -25110,7 +25158,7 @@ Transform:
   m_GameObject: {fileID: 1624308327}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.46, y: 0.32, z: 0}
+  m_LocalPosition: {x: -0.69, y: 0.45, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
