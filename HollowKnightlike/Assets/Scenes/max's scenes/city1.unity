@@ -976,37 +976,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!1 &64247943
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 64247944}
-  m_Layer: 0
-  m_Name: movespot2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &64247944
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 64247943}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1574573746}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &73088354
 GameObject:
   m_ObjectHideFlags: 0
@@ -4665,7 +4634,7 @@ Transform:
   m_GameObject: {fileID: 290222342}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 37.9, y: 2.8, z: 0}
+  m_LocalPosition: {x: 42.6, y: 3.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8814,6 +8783,7 @@ GameObject:
   - component: {fileID: 587712241}
   - component: {fileID: 587712240}
   - component: {fileID: 587712239}
+  - component: {fileID: 587712242}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -8897,6 +8867,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &587712242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587712238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20a1e84144b0558429c1ea7b46e6fba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpawnUnderPlayerOnEnter
+  prefabToSpawn: {fileID: 7929344482380662602, guid: 5aa82cf63f86c0d45a39cc3afe678030, type: 3}
 --- !u!1 &588942253
 GameObject:
   m_ObjectHideFlags: 0
@@ -21578,7 +21561,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 38.6521, y: 4.2955503}
+  m_Offset: {x: 42.341904, y: 6.2019463}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -21588,7 +21571,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 70.07709, y: 28.827898}
+  m_Size: {x: 66.38724, y: 32.640694}
   m_EdgeRadius: 0
 --- !u!4 &1438025492
 Transform:
@@ -21599,7 +21582,7 @@ Transform:
   m_GameObject: {fileID: 1438025489}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 408.63, y: 1.9, z: 0}
+  m_LocalPosition: {x: 408.63, y: 3.46, z: 0}
   m_LocalScale: {x: 0.75, y: 0.75, z: 0.75}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -23877,7 +23860,6 @@ GameObject:
   - component: {fileID: 1574573749}
   - component: {fileID: 1574573751}
   - component: {fileID: 1574573752}
-  - component: {fileID: 1574573753}
   - component: {fileID: 1574573754}
   - component: {fileID: 1574573756}
   - component: {fileID: 1574573757}
@@ -23961,8 +23943,6 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1624308328}
-  - {fileID: 1944164723}
-  - {fileID: 64247944}
   - {fileID: 2359987}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -23998,8 +23978,7 @@ MonoBehaviour:
   player: {fileID: 1482044963}
   moveSpeed: 3
   moveSpots:
-  - {fileID: 1944164723}
-  - {fileID: 64247944}
+  - {fileID: 7179367051027728054, guid: 5aa82cf63f86c0d45a39cc3afe678030, type: 3}
   firePoint: {fileID: 1624308328}
   projectilePrefab: {fileID: 3652224643773456893, guid: 76b51d83c9b3d4a4796fe9046e61fdd2, type: 3}
 --- !u!50 &1574573749
@@ -24088,18 +24067,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.89, y: 2.8799999}
   m_Direction: 0
---- !u!114 &1574573753
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1574573744}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0de85bf974c034f40ace0d0cbfebf89f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::bossleap
 --- !u!114 &1574573754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30057,37 +30024,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!1 &1944164722
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1944164723}
-  m_Layer: 0
-  m_Name: movespot1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1944164723
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1944164722}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -26.65, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1574573746}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1946467090
 GameObject:
   m_ObjectHideFlags: 0
@@ -30664,11 +30600,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4508897329193752830, guid: 70d4bc44c37a11a41a573dcb1d1e6a73, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 427.4
+      value: 404.59
       objectReference: {fileID: 0}
     - target: {fileID: 4508897329193752830, guid: 70d4bc44c37a11a41a573dcb1d1e6a73, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0
+      value: 7.51
       objectReference: {fileID: 0}
     - target: {fileID: 4508897329193752830, guid: 70d4bc44c37a11a41a573dcb1d1e6a73, type: 3}
       propertyPath: m_LocalPosition.z
