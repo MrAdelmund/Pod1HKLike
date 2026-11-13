@@ -1,48 +1,51 @@
 using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
 
 public class cameraZone : MonoBehaviour
 {
     public GameObject camera;
-
     public Transform target;
-
     public Transform player;
 
     public bool changeSize;
-
     public float zoneSize;
 
-    float baseSize;
+    private float baseSize;
+    private cameraFollow camFollow; // Cached for better performance
 
     private void Start()
     {
-        baseSize = camera.GetComponent<cameraFollow>().cameraSize;
+        if (camera != null)
+        {
+            camFollow = camera.GetComponent<cameraFollow>();
+            baseSize = camFollow.cameraSize;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.tag == "Player")
+        if (other.CompareTag("Player") && camFollow != null)
         {
-            camera.GetComponent<cameraFollow>().target = target;
+            camFollow.target = target;
 
             if (changeSize)
             {
-                camera.GetComponent<cameraFollow>().newCameraSize = zoneSize;
+                camFollow.newCameraSize = zoneSize;
             }
-            
         }
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        camera.GetComponent<cameraFollow>().target = player;
-
-        if (changeSize)
+        // 1. Only run when the Player exits
+        // 2. Check that camFollow/camera hasn't been destroyed (e.g., when stopping Play Mode)
+        if (other.CompareTag("Player") && camFollow != null)
         {
-            camera.GetComponent<cameraFollow>().newCameraSize = baseSize;
+            camFollow.target = player;
+
+            if (changeSize)
+            {
+                camFollow.newCameraSize = baseSize;
+            }
         }
-        
     }
 }
