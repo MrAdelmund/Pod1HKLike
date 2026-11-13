@@ -6,10 +6,9 @@ using UnityEngine.SceneManagement;
 public class PlayerHealth : MonoBehaviour
 {
     public int health = 6;
-    public int maxHealth = 6; // Added to track when health is full again
+    public int maxHealth = 6;
     public TMP_Text text;
 
-    // Reference to your "iframes" script
     private iframes iFramesScript;
 
     [Header("Respawn Settings")]
@@ -19,8 +18,7 @@ public class PlayerHealth : MonoBehaviour
     private CharacterController controller;
 
     [Header("UI Events")]
-    public UnityEvent onTakeDamage;
-    public UnityEvent onHeal;
+    public UnityEvent<int> onHealthChanged; // Sends the current health number
 
     void Start()
     {
@@ -43,7 +41,6 @@ public class PlayerHealth : MonoBehaviour
     {
         health -= 1;
         UpdateHealthUI();
-        onTakeDamage?.Invoke(); // Triggers the damaged UI animation
         Debug.Log("Player fell! Remaining health: " + health);
 
         if (health > 0)
@@ -93,18 +90,11 @@ public class PlayerHealth : MonoBehaviour
         {
             health = Mathf.Min(health + 1, maxHealth);
             UpdateHealthUI();
-
-            // Reverts the damaged UI animation when healed back to full
-            if (health >= maxHealth)
-            {
-                onHeal?.Invoke();
-            }
         }
     }
 
     public void TakeDamage(int damageAmount)
     {
-        // Stop immediately if i-frames are currently active
         if (iFramesScript != null && iFramesScript.IsInvulnerable)
         {
             return;
@@ -112,7 +102,6 @@ public class PlayerHealth : MonoBehaviour
 
         health -= damageAmount;
         UpdateHealthUI();
-        onTakeDamage?.Invoke(); // Triggers the damaged UI animation
         Debug.Log($"Player took {damageAmount} damage! Health remaining: {health}");
 
         if (health <= 0)
@@ -131,6 +120,9 @@ public class PlayerHealth : MonoBehaviour
         {
             text.text = "Health: " + health;
         }
+
+        // Automatically updates all 6 hearts whenever health goes up or down
+        onHealthChanged?.Invoke(health);
     }
 
     void Die()
@@ -139,5 +131,4 @@ public class PlayerHealth : MonoBehaviour
         SceneManager.LoadScene("DEATH");
     }
 }
-
 
