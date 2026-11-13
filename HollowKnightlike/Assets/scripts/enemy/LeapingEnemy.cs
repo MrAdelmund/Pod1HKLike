@@ -2,6 +2,9 @@ using UnityEngine;
 
 public class LeapingEnemy : MonoBehaviour
 {
+    [Header("Detection Settings")]
+    public float detectionRadius = 6f; // How close the player must be for the enemy to act
+
     [Header("Movement Settings")]
     public float leapCooldown = 2f;
     public Vector2 leapForce = new Vector2(5f, 7f); // X handles forward distance, Y handles height
@@ -20,13 +23,21 @@ public class LeapingEnemy : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        // Automatically finds the player via tag
         GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
         if (playerObj != null) player = playerObj.transform;
     }
 
     void Update()
     {
+        // Stop immediately if there is no player or the player is outside the detection radius
+        if (player == null) return;
+
+        float distanceToPlayer = Vector2.Distance(transform.position, player.position);
+        if (distanceToPlayer > detectionRadius)
+        {
+            return; // Enemy does nothing while the player is out of range
+        }
+
         // 1. Check if the enemy is standing on the ground
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, groundLayer);
 
@@ -37,7 +48,7 @@ public class LeapingEnemy : MonoBehaviour
         }
 
         // 3. Look at the player and leap if ready
-        if (player != null && isGrounded && cooldownTimer <= 0)
+        if (isGrounded && cooldownTimer <= 0)
         {
             FacePlayer();
             Leap();
@@ -79,7 +90,7 @@ public class LeapingEnemy : MonoBehaviour
         transform.localScale = scale;
     }
 
-    // Visualize the ground check circle in the Unity Editor
+    // Visualize both the ground check (red) and detection radius (yellow) in the Editor
     private void OnDrawGizmosSelected()
     {
         if (groundCheck != null)
@@ -87,5 +98,8 @@ public class LeapingEnemy : MonoBehaviour
             Gizmos.color = Color.red;
             Gizmos.DrawWireSphere(groundCheck.position, checkRadius);
         }
+
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(transform.position, detectionRadius);
     }
 }

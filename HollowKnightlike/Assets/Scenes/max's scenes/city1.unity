@@ -12761,7 +12761,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4d73ca1423525649a93359895ca2e13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LeapingEnemy
-  leapCooldown: 4
+  detectionRadius: 6
+  leapCooldown: 3
   leapForce: {x: 3.68, y: 6.54}
   groundCheck: {fileID: 203507435}
   checkRadius: 0.5
@@ -24069,7 +24070,6 @@ GameObject:
   - component: {fileID: 1499544270}
   - component: {fileID: 1499544269}
   - component: {fileID: 1499544268}
-  - component: {fileID: 1499544276}
   m_Layer: 4
   m_Name: SMidle1 (1)
   m_TagString: Enemy
@@ -24111,7 +24111,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4d73ca1423525649a93359895ca2e13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LeapingEnemy
-  leapCooldown: 4
+  detectionRadius: 6
+  leapCooldown: 3
   leapForce: {x: 3.68, y: 6.54}
   groundCheck: {fileID: 1029558324}
   checkRadius: 0.5
@@ -24283,23 +24284,6 @@ Transform:
   - {fileID: 1029558324}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1499544276
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1499544267}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 136dada382ab91c4685ca6d83805febd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EnemyRadiusCheck
-  checkRadius: 5
-  playerLayer:
-    serializedVersion: 2
-    m_Bits: 64
-  moveSpeed: 3
 --- !u!1 &1501112923
 GameObject:
   m_ObjectHideFlags: 0
@@ -25186,6 +25170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4d73ca1423525649a93359895ca2e13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LeapingEnemy
+  detectionRadius: 6
   leapCooldown: 4
   leapForce: {x: 5, y: 7}
   groundCheck: {fileID: 301588948}
