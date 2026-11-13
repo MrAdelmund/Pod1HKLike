@@ -1,36 +1,36 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.InputSystem.XR;
 using UnityEngine.SceneManagement;
-using static TMPro.SpriteAssetUtilities.TexturePacker_JsonArray;
 
 public class PlayerHealth : MonoBehaviour
 {
     public int health = 6;
-    // The text object we want to update
+    public int maxHealth = 6; // Added to track when health is full again
     public TMP_Text text;
 
     // Reference to your "iframes" script
     private iframes iFramesScript;
 
     [Header("Respawn Settings")]
-    public Transform spawnPoint; // Drag an empty GameObject here for your spawn location
+    public Transform spawnPoint;
 
     private Rigidbody rb;
     private CharacterController controller;
+
+    [Header("UI Events")]
     public UnityEvent onTakeDamage;
     public UnityEvent onHeal;
 
     void Start()
     {
+        maxHealth = health;
         iFramesScript = GetComponent<iframes>();
         UpdateHealthUI();
 
         rb = GetComponent<Rigidbody>();
         controller = GetComponent<CharacterController>();
 
-        // If no spawn point is assigned, use the player's starting position
         if (spawnPoint == null)
         {
             GameObject defaultSpawn = new GameObject("DefaultSpawnPoint");
@@ -41,11 +41,11 @@ public class PlayerHealth : MonoBehaviour
 
     public void FallAndRespawn()
     {
-        // 1. Subtract 1 health
         health -= 1;
+        UpdateHealthUI();
+        onTakeDamage?.Invoke(); // Triggers the damaged UI animation
         Debug.Log("Player fell! Remaining health: " + health);
 
-        // 2. Check if the player still has health left
         if (health > 0)
         {
             Respawn();
@@ -58,22 +58,17 @@ public class PlayerHealth : MonoBehaviour
 
     void Respawn()
     {
-        // Temporarily disable CharacterController if your player uses one 
-        // (Unity's CharacterController overrides transform.position changes if active)
         if (controller != null) controller.enabled = false;
 
-        // Move player back to the spawn point
         transform.position = spawnPoint.position;
         transform.rotation = spawnPoint.rotation;
 
-        // Reset falling momentum if using a 3D Rigidbody
         if (rb != null)
         {
             rb.linearVelocity = Vector3.zero;
             rb.angularVelocity = Vector3.zero;
         }
 
-        // Re-enable CharacterController
         if (controller != null) controller.enabled = true;
     }
 
@@ -96,16 +91,17 @@ public class PlayerHealth : MonoBehaviour
 
         if (collision.gameObject.CompareTag("HealthPack"))
         {
-            health += 1;
+            health = Mathf.Min(health + 1, maxHealth);
             UpdateHealthUI();
+
+            // Reverts the damaged UI animation when healed back to full
+            if (health >= maxHealth)
+            {
+                onHeal?.Invoke();
+            }
         }
     }
-      
-        // ... your existing health subtraction code ...
 
-        // Trigger the UI animation event
-        
-    
     public void TakeDamage(int damageAmount)
     {
         // Stop immediately if i-frames are currently active
@@ -116,6 +112,7 @@ public class PlayerHealth : MonoBehaviour
 
         health -= damageAmount;
         UpdateHealthUI();
+        onTakeDamage?.Invoke(); // Triggers the damaged UI animation
         Debug.Log($"Player took {damageAmount} damage! Health remaining: {health}");
 
         if (health <= 0)
@@ -124,7 +121,6 @@ public class PlayerHealth : MonoBehaviour
         }
         else if (iFramesScript != null)
         {
-            // Activate i-frames after taking damage
             iFramesScript.TriggerIFrames();
         }
     }
@@ -143,3 +139,5 @@ public class PlayerHealth : MonoBehaviour
         SceneManager.LoadScene("DEATH");
     }
 }
+
+

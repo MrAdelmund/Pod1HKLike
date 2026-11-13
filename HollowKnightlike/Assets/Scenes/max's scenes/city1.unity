@@ -23713,6 +23713,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
   health: 6
+  maxHealth: 6
   text: {fileID: 0}
   spawnPoint: {fileID: 0}
   onTakeDamage:

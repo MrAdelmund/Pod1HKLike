@@ -15,14 +15,5 @@ public class playerdamged : StateMachineBehaviour
                 uiAnimator.SetBool(damagedBoolName, true);
             }
         }
-
-        // Optional: Call this if the player heals and you want to revert the image
-        public void OnPlayerHeal()
-        {
-            if (uiAnimator != null)
-            {
-                uiAnimator.SetBool(damagedBoolName, false);
-            }
-        }
     }
 }
