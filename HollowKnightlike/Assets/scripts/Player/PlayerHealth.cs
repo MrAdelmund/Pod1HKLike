@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.InputSystem.XR;
 using UnityEngine.SceneManagement;
 using static TMPro.SpriteAssetUtilities.TexturePacker_JsonArray;
@@ -18,7 +19,8 @@ public class PlayerHealth : MonoBehaviour
 
     private Rigidbody rb;
     private CharacterController controller;
-
+    public UnityEvent onTakeDamage;
+    public UnityEvent onHeal;
 
     void Start()
     {
@@ -98,7 +100,12 @@ public class PlayerHealth : MonoBehaviour
             UpdateHealthUI();
         }
     }
+      
+        // ... your existing health subtraction code ...
 
+        // Trigger the UI animation event
+        
+    
     public void TakeDamage(int damageAmount)
     {
         // Stop immediately if i-frames are currently active
