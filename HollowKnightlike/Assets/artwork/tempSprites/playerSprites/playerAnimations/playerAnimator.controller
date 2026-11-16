@@ -716,7 +716,7 @@ AnimatorStateMachine:
     m_Position: {x: 970, y: 20, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -6329642467321357137}
-    m_Position: {x: 780, y: -180, z: 0}
+    m_Position: {x: 790, y: -180, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -6891773929968774756}
     m_Position: {x: 840, y: -130, z: 0}
@@ -884,7 +884,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: dJump
-  m_Speed: 1
+  m_Speed: 0.75
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -6215200479622957828}
@@ -1057,7 +1057,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 35d66fb55b7f647439191ee3f3a24f38, type: 2}
+  m_Motion: {fileID: 7400000, guid: 0c3d6f4bbc7edfe4cbc3fb56f28f1293, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -1481,7 +1481,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: walk
-  m_Speed: 1
+  m_Speed: 0.75
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -8586454109579622776}
