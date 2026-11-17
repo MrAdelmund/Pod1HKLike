@@ -88,9 +88,16 @@ public class PlayerHealth : MonoBehaviour
 
         if (collision.gameObject.CompareTag("HealthPack"))
         {
-            health = Mathf.Min(health + 1, maxHealth);
-            UpdateHealthUI();
+            Heal(6);
+            Destroy(collision.gameObject); // Removes the health pack after picking it up
         }
+    }
+
+    public void Heal(int healAmount)
+    {
+        health = Mathf.Clamp(health + healAmount, 0, maxHealth);
+        UpdateHealthUI();
+        Debug.Log($"Player healed {healAmount}! Health remaining: {health}");
     }
 
     public void TakeDamage(int damageAmount)
