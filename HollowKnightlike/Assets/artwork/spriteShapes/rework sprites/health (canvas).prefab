@@ -409,7 +409,7 @@ GameObject:
   - component: {fileID: 8719858378515734253}
   - component: {fileID: 1128745793215568118}
   - component: {fileID: 7993912542677335455}
-  - component: {fileID: 4631304193879834998}
+  - component: {fileID: 2060456330010709483}
   m_Layer: 5
   m_Name: health (canvas)
   m_TagString: Untagged
@@ -507,7 +507,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &4631304193879834998
+--- !u!114 &2060456330010709483
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -519,13 +519,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f579f40a148fb6a4fa4a7994036926ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Assets.scripts.visual.UIHealthDamage
-  heartAnimators:
-  - {fileID: 991757817806245861}
-  - {fileID: 3558080804530339296}
-  - {fileID: 8151257580607941153}
-  - {fileID: 5658858771623458233}
-  - {fileID: 4615067282276452922}
-  - {fileID: 8319058040444077987}
+  heartAnimators: []
   damagedBoolName: IsDamaged
 --- !u!1 &4111308849066099088
 GameObject:

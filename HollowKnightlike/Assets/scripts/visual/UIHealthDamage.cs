@@ -1,23 +1,51 @@
+
 using UnityEngine;
 
 namespace Assets.scripts.visual
 {
     public class UIHealthDamage : MonoBehaviour
     {
-        [Header("Drag all 6 Heart UI Objects here (Left to Right)")]
+        [Header("Leave empty to auto-grab the 6 child hearts inside this prefab")]
         [SerializeField] private Animator[] heartAnimators;
         [SerializeField] private string damagedBoolName = "IsDamaged";
 
-        // Call this whenever health changes and pass the current health value
+        private int damagedBoolHash;
+        private int lastHealth = -1;
+
+        private void Awake()
+        {
+            damagedBoolHash = Animator.StringToHash(damagedBoolName);
+
+            if (heartAnimators == null || heartAnimators.Length == 0)
+            {
+                heartAnimators = GetComponentsInChildren<Animator>(true);
+            }
+        }
+
+        private void OnEnable()
+        {
+            if (lastHealth >= 0)
+            {
+                UpdateHearts(lastHealth);
+            }
+        }
+
         public void UpdateHearts(int currentHealth)
         {
+            lastHealth = currentHealth;
+
+            if (heartAnimators == null || heartAnimators.Length == 0)
+            {
+                heartAnimators = GetComponentsInChildren<Animator>(true);
+            }
+
             for (int i = 0; i < heartAnimators.Length; i++)
             {
-                if (heartAnimators[i] != null)
+                Animator anim = heartAnimators[i];
+                if (anim != null)
                 {
-                    // Example: If health is 5, heart index 5 (the 6th heart) becomes damaged (true)
                     bool isHeartDamaged = i >= currentHealth;
-                    heartAnimators[i].SetBool(damagedBoolName, isHeartDamaged);
+                    anim.SetBool(damagedBoolHash, isHeartDamaged);
                 }
             }
         }

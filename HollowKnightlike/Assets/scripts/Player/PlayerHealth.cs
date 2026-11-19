@@ -17,8 +17,24 @@ public class PlayerHealth : MonoBehaviour
     private Rigidbody rb;
     private CharacterController controller;
 
-    [Header("UI Events")]
+    [Header("UI References & Events")]
+    [SerializeField] private Assets.scripts.visual.UIHealthDamage uiHealthDamage;
     public UnityEvent<int> onHealthChanged; // Sends the current health number
+
+    private void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        FindAndSyncHealthUI();
+    }
 
     void Start()
     {
@@ -34,6 +50,24 @@ public class PlayerHealth : MonoBehaviour
             GameObject defaultSpawn = new GameObject("DefaultSpawnPoint");
             defaultSpawn.transform.position = transform.position;
             spawnPoint = defaultSpawn.transform;
+        }
+    }
+
+    private void FindAndSyncHealthUI()
+    {
+        // Find the active UIHealthDamage inside the loaded Canvas prefab
+        if (uiHealthDamage == null || !uiHealthDamage.gameObject.scene.IsValid())
+        {
+            uiHealthDamage = FindFirstObjectByType<Assets.scripts.visual.UIHealthDamage>();
+        }
+
+        if (uiHealthDamage != null)
+        {
+            uiHealthDamage.UpdateHearts(health);
+        }
+        else
+        {
+            Debug.LogWarning("Health Bar Canvas prefab was not found in scene: " + SceneManager.GetActiveScene().name);
         }
     }
 
@@ -128,7 +162,10 @@ public class PlayerHealth : MonoBehaviour
             text.text = "Health: " + health;
         }
 
-        // Automatically updates all 6 hearts whenever health goes up or down
+        // Automatically finds and updates the Health Bar Canvas prefab in any scene
+        FindAndSyncHealthUI();
+
+        // Still invokes any extra UnityEvents you have wired up
         onHealthChanged?.Invoke(health);
     }
 
@@ -138,4 +175,3 @@ public class PlayerHealth : MonoBehaviour
         SceneManager.LoadScene("DEATH");
     }
 }
-
