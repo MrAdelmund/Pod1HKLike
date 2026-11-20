@@ -1,3 +1,4 @@
+
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -28,20 +29,29 @@ public class SceneCannon : MonoBehaviour
     {
         isLaunching = true;
 
-        // 1. Snap player to barrel and apply impulse force
+        // 1. Disable the player's movement script so input cannot override the launch
+        // Replace 'PlayerMovement' with your script's exact class name if needed
+        PlayerMovement movementScript = player.GetComponent<PlayerMovement>();
+        if (movementScript != null)
+        {
+            movementScript.enabled = false;
+        }
+
+        // 2. Snap player to barrel, clear existing momentum, and fire
         Rigidbody2D rb = player.GetComponent<Rigidbody2D>();
         player.transform.position = launchPoint.position;
 
         if (rb != null)
         {
             rb.linearVelocity = Vector2.zero; // Use rb.velocity if on Unity 2022 or older
+            rb.angularVelocity = 0f;
             rb.AddForce(launchPoint.right * launchForce, ForceMode2D.Impulse);
         }
 
-        // 2. Let the player fly briefly before the screen starts darkening
+        // 3. Let the player fly briefly before fading
         yield return new WaitForSeconds(flightTimeBeforeFade);
 
-        // 3. Smoothly fade the CanvasGroup alpha from 0 to 1
+        // 4. Smoothly fade the screen to black
         if (fadeCanvasGroup != null)
         {
             float timer = 0f;
@@ -49,12 +59,12 @@ public class SceneCannon : MonoBehaviour
             {
                 timer += Time.deltaTime;
                 fadeCanvasGroup.alpha = Mathf.Clamp01(timer / fadeDuration);
-                yield return null; // Wait for the next frame
+                yield return null;
             }
             fadeCanvasGroup.alpha = 1f;
         }
 
-        // 4. Load the next scene once the screen is completely black
+        // 5. Load the next scene
         SceneManager.LoadScene(nextSceneName);
     }
 }
